@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class Account {
 
-    @Autowired
     private Person person;
     @Autowired
     private PersonRepository repository;
